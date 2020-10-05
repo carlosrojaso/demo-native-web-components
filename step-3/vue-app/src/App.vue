@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <error-component>Esto en un mensaje</error-component>
-    <error-component :kind="warning">Esto en un mensaje</error-component>
-    <error-component :kind="error">Esto en un mensaje</error-component>
+    <error-component>Default Message</error-component>
+    <error-component :kind="warning">Warning Message</error-component>
+    <error-component :kind="error">Error Message</error-component>
   </div>
 </template>
 
